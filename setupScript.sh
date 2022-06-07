@@ -43,4 +43,5 @@ CASKS=(
 )
 
 echo "Installing necessary apps..."
+# note "reinstall" if cask downloaded then removed
 brew install --cask ${CASKS[@]}
