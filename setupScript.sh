@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Setup script for setting up a new macos machine
+# Setup script for setting up a new Mac OS machine
 echo "Starting setup..."
 
 # this takes the most time to install
