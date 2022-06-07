@@ -36,8 +36,10 @@ brew install ${PACKAGES[@]}
 brew link --force readline
 
 CASKS=(
-    spotify
-    steam
+    google-chrome
+    slack
+    microsoft-teams
+    microsoft-outlook
 )
 
 echo "Installing necessary apps..."
