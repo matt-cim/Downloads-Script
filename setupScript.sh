@@ -14,7 +14,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 # Check if homebrew is installed, else install if it's missing
 if test ! $(which brew); then
     echo "Installing homebrew..."
-    /bin/bash -c "$(curl -fsSL     https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
 echo "updating brew..."
