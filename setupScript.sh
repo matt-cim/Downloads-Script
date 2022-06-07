@@ -8,7 +8,7 @@ xcode-select --install
 echo -n "Enter name of User ex: bob.smith "
 read answer
 
-echo 'eval "$(/opt/homebrew/bin/brew shellenv)"'     >>  /Users/$answer/.zprofile
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/$answer/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Check if homebrew is installed, else install if it's missing
