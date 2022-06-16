@@ -8,6 +8,7 @@ xcode-select --install
 echo -n "Enter name of User ex: bob.smith "
 read answer
 
+# answer variable used in redirection for path with users name
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/$answer/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
@@ -35,6 +36,7 @@ brew install ${PACKAGES[@]}
 
 brew link --force readline
 
+# contains casks that want to be installed. full list @ https://formulae.brew.sh/cask/
 CASKS=(
     google-chrome
     slack
@@ -43,5 +45,5 @@ CASKS=(
 )
 
 echo "Installing necessary apps..."
-# note "reinstall" if cask downloaded then removed
+# note "reinstall" if cask is previously downloaded then removed
 brew install --cask ${CASKS[@]}
