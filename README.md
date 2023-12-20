@@ -1,5 +1,5 @@
 # Mac OS Script for downloading apps
-This bash script (**setupScript.sh**) is useful for downloading multiple apps at once by simply running a script via a command line. 
+This bash script (**setupScript.sh**) is useful for downloading multiple apps at once by simply running a script via the command line. 
 This script can be used during onboarding processes at companies when a new user receives a computer and is extremly versatile as it 
 supports **hundreds** of downloadable apps/softwares. See https://formulae.brew.sh/cask/ for the full list of downloadable apps/softwares
 
